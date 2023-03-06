@@ -1,0 +1,116 @@
+:root
+  --Darkcyan: hsl(185, 75%, 39%)
+  --Verydark: hsl(229, 23%, 23%)
+  --Dark: hsl(227, 10%, 46%)
+
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  
+
+.attribution
+  color: white
+  margin-top: 20px
+
+body
+  font-family: 'Kumbh Sans', sans-serif
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  background-color: var(--Darkcyan)
+
+  overflow: hidden
+
+  
+
+  .bg-bottom, .bg-top
+    position: absolute
+    z-index: -1
+    
+
+  .bg-top
+    top: -50%
+    left: -12%
+    
+
+  .bg-bottom
+    bottom: -60%
+    right: -8%
+    
+
+.card
+  width: 450px
+  background-color: white
+  border-radius: 20px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  @media (max-width: 600px)
+    width: 350px
+
+  .card-image
+    height: 200px
+    width: 100%
+    background-image: url('../images/bg-pattern-card.svg')
+    position: relative
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+
+    img
+      width: 150px
+      border-radius: 50%
+      border: 8px solid white
+      position: absolute
+      bottom: -65px
+      right: 32%
+
+      @media (max-width: 600px)
+        right: 28%
+
+  .card-texts
+    width: 100%
+
+    p
+      color: var(--Dark)
+      text-align: center
+      font-size: 18px
+      margin-bottom: 32px
+   
+    h1
+      font-size: 24px
+      color: var(--Verydark)
+      margin-top: 90px
+      margin-bottom: 8px
+      text-align: center
+
+      span
+        margin-left: 10px
+        color: var(--Dark)
+
+    h2
+      font-size: 24px
+      color: var(--Verydark)
+
+
+
+    .stats
+      width: 100%
+      padding: 40px 60px
+      border-top: 1px solid #ccc
+      display: flex
+      justify-content: space-between
+
+      .stats-elem
+        text-align: center
+
+        p
+          font-size: 13px
+          letter-spacing: 2px
+          margin-top: 5px
+          margin: 5px auto 0 auto
