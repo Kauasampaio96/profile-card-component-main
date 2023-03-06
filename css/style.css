@@ -13,6 +13,9 @@
 .attribution {
   color: white;
   margin-top: 20px;
+  font-size: 0.9rem;
+  padding: 0 20px;
+  text-align: center;
 }
 
 body {
@@ -23,20 +26,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--Darkcyan);
-  overflow: hidden;
-}
-body .bg-bottom, body .bg-top {
-  position: absolute;
-  z-index: -1;
-  overflow: hidden;
-}
-body .bg-top {
-  top: -50%;
-  left: -12%;
-}
-body .bg-bottom {
-  bottom: -60%;
-  right: -8%;
 }
 
 .card {
