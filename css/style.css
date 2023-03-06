@@ -28,6 +28,7 @@ body {
 body .bg-bottom, body .bg-top {
   position: absolute;
   z-index: -1;
+  overflow: hidden;
 }
 body .bg-top {
   top: -50%;
