@@ -105,6 +105,11 @@ body .bg-bottom {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 600px) {
+  .card .card-texts .stats {
+    padding: 40px 30px;
+  }
+}
 .card .card-texts .stats .stats-elem {
   text-align: center;
   margin: 0 10px;
