@@ -106,6 +106,7 @@ body .bg-bottom {
 }
 .card .card-texts .stats .stats-elem {
   text-align: center;
+  margin: 0 10px;
 }
 .card .card-texts .stats .stats-elem p {
   font-size: 13px;
